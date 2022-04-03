@@ -5,8 +5,9 @@
   "modifyObstructiveCode": false,
   "supportFile": "./src/support/index.ts",
   "pluginsFile": false,
-  "video": false,
-  "videosFolder": "../../dist/cypress/apps/client-e2e/videos",
-  "screenshotsFolder": "../../dist/cypress/apps/client-e2e/screenshots",
-  "chromeWebSecurity": false
+  "video": true,
+  "videosFolder": "../../dist/cypress/apps/ui-e2e/videos",
+  "screenshotsFolder": "../../dist/cypress/apps/ui-e2e/screenshots",
+  "chromeWebSecurity": false,
+  "baseUrl": "http://localhost:4400"
 }

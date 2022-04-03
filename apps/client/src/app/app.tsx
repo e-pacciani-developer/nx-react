@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import { ThemeProvider } from '@mui/material';
+import { FancyButton } from '@reactmonorepo/ui';
+import { theme } from './theme';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="client" />
-      <div />
-    </>
+    <ThemeProvider theme={theme}>
+      <FancyButton color="beautiful" variant="contained" label="Beautiful!" />
+    </ThemeProvider>
   );
 }
 

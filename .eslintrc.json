@@ -24,7 +24,7 @@
     {
       "files": ["*.ts", "*.tsx"],
       "extends": ["plugin:@nrwl/nx/typescript"],
-      "rules": {}
+      "rules": { "no-empty-pattern": "warn", "no-constant-condition": "warn" }
     },
     {
       "files": ["*.js", "*.jsx"],
