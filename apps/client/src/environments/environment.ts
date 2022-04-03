@@ -3,4 +3,5 @@
 
 export const environment = {
   production: false,
+  MY_STRING: 'Hello World official',
 };

@@ -7,6 +7,11 @@ export interface FancyButtonProps {
   color: any;
 }
 
+/**
+ * This is a fancy button
+ * @param param0
+ * @returns
+ */
 export function FancyButton({ variant, label, color }: FancyButtonProps) {
   return (
     <Button variant={variant} data-test-id="pippo" color={color}>
